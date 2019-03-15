@@ -1,4 +1,4 @@
-package com.example.learn;
+package com.example.android.tutorial;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,11 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.learn.activity.ContactActivity;
-import com.example.learn.activity.NumberActivity;
-import com.example.learn.activity.TransFactActivity;
+import com.example.android.tutorial.activity.ContactActivity;
+import com.example.android.tutorial.activity.NumberSimpleActivity;
+import com.example.android.tutorial.activity.TransFactActivity;
 
 public class MainActivity extends AppCompatActivity {
+
     private Button btnSimple, btnCustome,btnViewPage;
 
     @Override
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = null;
             switch (v.getId()){
                 case R.id.btn_simple:
-                    intent = new Intent(MainActivity.this, NumberActivity.class);
+                    intent = new Intent(MainActivity.this, NumberSimpleActivity.class);
                     break;
                 case R.id.btn_custome:
                     intent = new Intent(MainActivity.this, ContactActivity.class);
@@ -47,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btn_viewpage:
                     intent = new Intent(MainActivity.this, TransFactActivity.class);
                     break;
-                    default:
-                        break;
+                default:
+                    break;
             }
             startActivity(intent);
         }

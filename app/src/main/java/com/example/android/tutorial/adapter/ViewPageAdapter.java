@@ -1,4 +1,4 @@
-package com.example.learn.adapter;
+package com.example.android.tutorial.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -37,4 +37,3 @@ public class ViewPageAdapter extends FragmentStatePagerAdapter {
         return arrTitle.size();
     }
 }
-

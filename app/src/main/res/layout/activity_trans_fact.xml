@@ -4,16 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.learn.activity.TransFactActivity"
+    tools:context="com.example.android.tutorial.activity.TransFactActivity"
     android:orientation="vertical">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/tool_bar"
-        android:background="#f00"
-        app:title="View Pager"
-        app:titleTextColor="#fff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </android.support.v7.widget.Toolbar>
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_layout"
         android:background="#00f"

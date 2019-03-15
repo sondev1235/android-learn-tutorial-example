@@ -1,17 +1,17 @@
-package com.example.learn.activity;
+package com.example.android.tutorial.activity;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import com.example.learn.R;
-import com.example.learn.adapter.ViewPageAdapter;
-import com.example.learn.fragment.BlankFragment;
-import com.example.learn.fragment.OneFragment;
+
+import com.example.android.tutorial.R;
+import com.example.android.tutorial.adapter.ViewPageAdapter;
+import com.example.android.tutorial.fragment.BlankFragment;
+import com.example.android.tutorial.fragment.OneFragment;
 
 public class TransFactActivity extends AppCompatActivity {
-    Toolbar toolbar; //options
     ViewPager viewPager;
     OneFragment oneFragment;
     BlankFragment blankFragment;
@@ -26,7 +26,6 @@ public class TransFactActivity extends AppCompatActivity {
     }
 
     private void init() {
-        toolbar = findViewById(R.id.tool_bar);
         viewPager = findViewById(R.id.view_pager);
         tableLayout = findViewById(R.id.tab_layout);
 

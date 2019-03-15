@@ -1,22 +1,23 @@
-package com.example.learn.activity;
+package com.example.android.tutorial.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.learn.R;
+import com.example.android.tutorial.R;
 
 import java.util.ArrayList;
 
-public class NumberActivity extends AppCompatActivity {
+public class NumberSimpleActivity extends AppCompatActivity {
+
     ListView lvSimple;
     ArrayList<String> arrayList;
     ArrayAdapter<String> adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_number);
+        setContentView(R.layout.activity_number_simple);
         init();
         bindData();
     }

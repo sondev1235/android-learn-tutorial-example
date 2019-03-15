@@ -1,4 +1,4 @@
-package com.example.learn.activity;
+package com.example.android.tutorial.activity;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -7,10 +7,10 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
-import com.example.learn.R;
-import com.example.learn.adapter.ContactAdapter;
-import com.example.learn.models.Contact;
-import com.example.learn.service.MyService;
+import com.example.android.tutorial.R;
+import com.example.android.tutorial.adapter.ContactAdapter;
+import com.example.android.tutorial.models.Contact;
+import com.example.android.tutorial.services.MyService;
 
 import org.json.JSONArray;
 import org.json.JSONException;

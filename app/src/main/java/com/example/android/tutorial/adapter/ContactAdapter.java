@@ -1,4 +1,4 @@
-package com.example.learn.adapter;
+package com.example.android.tutorial.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.learn.R;
-import com.example.learn.models.Contact;
+import com.example.android.tutorial.R;
+import com.example.android.tutorial.models.Contact;
 
 import java.util.ArrayList;
 
@@ -64,3 +64,4 @@ public class ContactAdapter extends BaseAdapter {
         TextView tvId, tvName, tvPhone;
     }
 }
+

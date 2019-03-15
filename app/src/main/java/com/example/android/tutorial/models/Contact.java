@@ -1,4 +1,4 @@
-package com.example.learn.models;
+package com.example.android.tutorial.models;
 
 public class Contact {
     private int id;
